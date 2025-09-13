@@ -14,4 +14,4 @@ def word_frequency(sentence):
             freq[word] += 1
     return freq
 
-print(word_frequency("Hello, hello! How are you? Are you fine?"))
+print(word_frequency("Hello, hello! How are you? Are you fine?, What are you doing?"))
