@@ -13,9 +13,3 @@ def is_balanced(s):
 
 print(is_balanced("()[]{}"))
 print(is_balanced("(]"))
-print(is_balanced("([)]"))  # nested different
-print(is_balanced("((()))"))  # nested same
-print(is_balanced("())"))  # extra closing
-print(is_balanced("(()"))  # extra opening
-print(is_balanced(""))  # empty
-print(is_balanced("a(b)c"))  # with non-brackets
